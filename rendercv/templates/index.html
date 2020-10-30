@@ -26,7 +26,18 @@
 
   <!-- Template Main CSS File -->
   <link href="{% static 'assets/css/style.css' %}" rel="stylesheet">
-
+<style>
+  body::before {
+  content: "";
+  position: fixed;
+  background: #040404 url("/static/assets/img/stan4-1.jpg") center no-repeat;
+  background-size: cover;
+  left: 0;
+  right: 0;
+  top: 0;
+  height: 100vh;
+}
+</style>
   <!-- =======================================================
   * Template Name: Personal - v2.0.1
   * Template URL: https://bootstrapmade.com/personal-free-resume-bootstrap-template/
@@ -36,7 +47,6 @@
 </head>
 
 <body>
-
   <!-- ======= Header ======= -->
   <header id="header" class="header-tops">
     <div class="container">
